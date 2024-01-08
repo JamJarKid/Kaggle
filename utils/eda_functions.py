@@ -1,9 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import mplcyberpunk
+plt.style.use("cyberpunk")
 
-def summarise_nulls():
-    pass
+def summarise_nulls(train_data: pd.DataFrame):
+        
 
 def summarise_features():
     pass
